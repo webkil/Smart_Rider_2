@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		9A77467A1AFBD92F006BF723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7746791AFBD92F006BF723 /* AppDelegate.swift */; };
-		9A77467D1AFBD92F006BF723 /* Smart_Rider_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A77467B1AFBD92F006BF723 /* Smart_Rider_2.xcdatamodeld */; };
 		9A77467F1AFBD92F006BF723 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A77467E1AFBD92F006BF723 /* ViewController.swift */; };
-		9A7746821AFBD92F006BF723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7746801AFBD92F006BF723 /* Main.storyboard */; };
 		9A7746841AFBD92F006BF723 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7746831AFBD92F006BF723 /* Images.xcassets */; };
 		9A7746871AFBD92F006BF723 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7746851AFBD92F006BF723 /* LaunchScreen.xib */; };
 		9A7746931AFBD92F006BF723 /* Smart_Rider_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7746921AFBD92F006BF723 /* Smart_Rider_2Tests.swift */; };
+		9A77469D1AFBD958006BF723 /* Smart_Rider_2.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9A77469C1AFBD958006BF723 /* Smart_Rider_2.xcdatamodel */; };
+		9A77469F1AFBDA1A006BF723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A77469E1AFBDA1A006BF723 /* Main.storyboard */; };
+		9A7746A11AFBDAF4006BF723 /* Ajouter_moto_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7746A01AFBDAF3006BF723 /* Ajouter_moto_view.swift */; };
+		9A7746A91AFBDC74006BF723 /* SwiftCoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7746A81AFBDC74006BF723 /* SwiftCoreDataHelper.swift */; };
+		9A7746AC1AFBDD35006BF723 /* Menu_base.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7746AB1AFBDD35006BF723 /* Menu_base.swift */; };
+		9A7746B01AFBDF6F006BF723 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7746AD1AFBDF6F006BF723 /* Service.swift */; };
+		9A7746B11AFBDF6F006BF723 /* Moto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7746AE1AFBDF6F006BF723 /* Moto.swift */; };
+		9A7746B21AFBDF6F006BF723 /* Pneu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A7746AF1AFBDF6F006BF723 /* Pneu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +36,20 @@
 		9A7746741AFBD92F006BF723 /* Smart_Rider_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smart_Rider_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7746781AFBD92F006BF723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A7746791AFBD92F006BF723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A77467C1AFBD92F006BF723 /* Smart_Rider_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smart_Rider_2.xcdatamodel; sourceTree = "<group>"; };
 		9A77467E1AFBD92F006BF723 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9A7746811AFBD92F006BF723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A7746831AFBD92F006BF723 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A7746861AFBD92F006BF723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9A77468C1AFBD92F006BF723 /* Smart_Rider_2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Smart_Rider_2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7746911AFBD92F006BF723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A7746921AFBD92F006BF723 /* Smart_Rider_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smart_Rider_2Tests.swift; sourceTree = "<group>"; };
+		9A77469C1AFBD958006BF723 /* Smart_Rider_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Smart_Rider_2.xcdatamodel; sourceTree = "<group>"; };
+		9A77469E1AFBDA1A006BF723 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9A7746A01AFBDAF3006BF723 /* Ajouter_moto_view.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ajouter_moto_view.swift; sourceTree = "<group>"; };
+		9A7746A81AFBDC74006BF723 /* SwiftCoreDataHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftCoreDataHelper.swift; path = ../../ContactU/ContactU/SwiftCoreDataHelper.swift; sourceTree = "<group>"; };
+		9A7746AB1AFBDD35006BF723 /* Menu_base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Menu_base.swift; sourceTree = "<group>"; };
+		9A7746AD1AFBDF6F006BF723 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		9A7746AE1AFBDF6F006BF723 /* Moto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moto.swift; sourceTree = "<group>"; };
+		9A7746AF1AFBDF6F006BF723 /* Pneu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pneu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,12 +91,18 @@
 		9A7746761AFBD92F006BF723 /* Smart_Rider_2 */ = {
 			isa = PBXGroup;
 			children = (
+				9A7746AD1AFBDF6F006BF723 /* Service.swift */,
+				9A7746AE1AFBDF6F006BF723 /* Moto.swift */,
+				9A7746AF1AFBDF6F006BF723 /* Pneu.swift */,
+				9A7746AA1AFBDC7A006BF723 /* Helpers */,
 				9A7746791AFBD92F006BF723 /* AppDelegate.swift */,
 				9A77467E1AFBD92F006BF723 /* ViewController.swift */,
-				9A7746801AFBD92F006BF723 /* Main.storyboard */,
+				9A77469E1AFBDA1A006BF723 /* Main.storyboard */,
+				9A7746AB1AFBDD35006BF723 /* Menu_base.swift */,
+				9A7746A01AFBDAF3006BF723 /* Ajouter_moto_view.swift */,
 				9A7746831AFBD92F006BF723 /* Images.xcassets */,
 				9A7746851AFBD92F006BF723 /* LaunchScreen.xib */,
-				9A77467B1AFBD92F006BF723 /* Smart_Rider_2.xcdatamodeld */,
+				9A77469C1AFBD958006BF723 /* Smart_Rider_2.xcdatamodel */,
 				9A7746771AFBD92F006BF723 /* Supporting Files */,
 			);
 			path = Smart_Rider_2;
@@ -113,6 +131,14 @@
 				9A7746911AFBD92F006BF723 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A7746AA1AFBDC7A006BF723 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				9A7746A81AFBDC74006BF723 /* SwiftCoreDataHelper.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +221,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A7746821AFBD92F006BF723 /* Main.storyboard in Resources */,
+				9A77469F1AFBDA1A006BF723 /* Main.storyboard in Resources */,
 				9A7746871AFBD92F006BF723 /* LaunchScreen.xib in Resources */,
 				9A7746841AFBD92F006BF723 /* Images.xcassets in Resources */,
 			);
@@ -215,9 +241,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7746A11AFBDAF4006BF723 /* Ajouter_moto_view.swift in Sources */,
+				9A7746B01AFBDF6F006BF723 /* Service.swift in Sources */,
+				9A7746AC1AFBDD35006BF723 /* Menu_base.swift in Sources */,
 				9A77467F1AFBD92F006BF723 /* ViewController.swift in Sources */,
+				9A7746B11AFBDF6F006BF723 /* Moto.swift in Sources */,
+				9A7746A91AFBDC74006BF723 /* SwiftCoreDataHelper.swift in Sources */,
 				9A77467A1AFBD92F006BF723 /* AppDelegate.swift in Sources */,
-				9A77467D1AFBD92F006BF723 /* Smart_Rider_2.xcdatamodeld in Sources */,
+				9A77469D1AFBD958006BF723 /* Smart_Rider_2.xcdatamodel in Sources */,
+				9A7746B21AFBDF6F006BF723 /* Pneu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,14 +272,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9A7746801AFBD92F006BF723 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9A7746811AFBD92F006BF723 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9A7746851AFBD92F006BF723 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -423,19 +447,6 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		9A77467B1AFBD92F006BF723 /* Smart_Rider_2.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				9A77467C1AFBD92F006BF723 /* Smart_Rider_2.xcdatamodel */,
-			);
-			currentVersion = 9A77467C1AFBD92F006BF723 /* Smart_Rider_2.xcdatamodel */;
-			path = Smart_Rider_2.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 9A77466C1AFBD92E006BF723 /* Project object */;
 }

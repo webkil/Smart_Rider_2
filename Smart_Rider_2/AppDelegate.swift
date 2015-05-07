@@ -52,11 +52,34 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return urls[urls.count-1] as! NSURL
     }()
 
-    lazy var managedObjectModel: NSManagedObjectModel = {
+    
+    
+    //renommé deux __
+    lazy var __managedObjectModel: NSManagedObjectModel = {
         // The managed object model for the application. This property is not optional. It is a fatal error for the application not to be able to find and load its model.
         let modelURL = NSBundle.mainBundle().URLForResource("Smart_Rider_2", withExtension: "momd")!
         return NSManagedObjectModel(contentsOfURL: modelURL)!
     }()
+    
+//ici
+    
+    var _managedObjectModel: NSManagedObjectModel? = nil
+    
+    
+    var managedObjectModel: NSManagedObjectModel {
+        //if( _managedObjectMod = nil) {
+        let modelURL = NSBundle.mainBundle().URLForResource("Smart_Rider_2", withExtension: "momd")
+        _managedObjectModel = NSManagedObjectModel(contentsOfURL: modelURL!)
+        //}
+        return _managedObjectModel!
+    }
+
+    
+    //ici
+    
+    
+    
+    
 
     lazy var persistentStoreCoordinator: NSPersistentStoreCoordinator? = {
         // The persistent store coordinator for the application. This implementation creates and return a coordinator, having added the store for the application to it. This property is optional since there are legitimate error conditions that could cause the creation of the store to fail.

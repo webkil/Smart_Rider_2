@@ -2,6 +2,15 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../Smart_Rider_2/Service.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../Smart_Rider_2/Moto.swift">
+   </FileRef>
+   <FileRef
+      location = "group:../Smart_Rider_2/Pneu.swift">
+   </FileRef>
+   <FileRef
       location = "self:Smart_Rider_2.xcodeproj">
    </FileRef>
 </Workspace>

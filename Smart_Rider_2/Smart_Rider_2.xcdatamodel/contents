@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7700" systemVersion="14E11f" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Moto" representedClassName="Smart_Rider_2.Moto">
+        <attribute name="motoannee" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="motoduedate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="motoidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="motoImage" optional="YES" attributeType="Binary">
+            <userInfo/>
+        </attribute>
+        <attribute name="motokilometre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="motomarque" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="motomodel" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="pneu" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pneu" inverseName="moto" inverseEntity="Pneu" syncable="YES"/>
+        <relationship name="service" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Service" inverseName="moto" inverseEntity="Service" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="Pneu" representedClassName="Smart_Rider_2.Pneu" syncable="YES">
+        <attribute name="pneuidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pneumarque" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pneuprofil" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pneureference" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pneutype" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="moto" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Moto" inverseName="pneu" inverseEntity="Moto" syncable="YES"/>
+    </entity>
+    <entity name="Service" representedClassName="Smart_Rider_2.Service" syncable="YES">
+        <attribute name="servicedate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="servicefait" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="serviceidentifier" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="servicekilometre" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="moto" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Moto" inverseName="service" inverseEntity="Moto" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Moto" positionX="-99" positionY="189" width="128" height="180"/>
+        <element name="Pneu" positionX="180" positionY="-117" width="128" height="135"/>
+        <element name="Service" positionX="171" positionY="357" width="128" height="120"/>
+    </elements>
+</model>
