@@ -397,6 +397,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Smart_Rider_2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart_Rider_2.app/Smart_Rider_2";
@@ -412,6 +413,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Smart_Rider_2Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart_Rider_2.app/Smart_Rider_2";
@@ -437,6 +439,7 @@
 				9A7746981AFBD92F006BF723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A7746991AFBD92F006BF723 /* Build configuration list for PBXNativeTarget "Smart_Rider_2Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +448,7 @@
 				9A77469B1AFBD92F006BF723 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

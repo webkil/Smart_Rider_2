@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7CACAE7B-7DD4-45FF-B5B0-1D1D43B11469</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Smart_Rider_2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0D3CCF4DB103270F550721B93D159216B9B280E7</key>
+		<string>https://github.com/webkil/Smart_Rider_2.git</string>
+		<key>2986F8C84BD74AC6A99F5FE842E9B2C0A3503EEA</key>
+		<string>https://github.com/webkil/ContactU.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Smart_Rider_2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0D3CCF4DB103270F550721B93D159216B9B280E7</key>
+		<string>../..</string>
+		<key>2986F8C84BD74AC6A99F5FE842E9B2C0A3503EEA</key>
+		<string>../../../ContactU</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/webkil/Smart_Rider_2.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0D3CCF4DB103270F550721B93D159216B9B280E7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2986F8C84BD74AC6A99F5FE842E9B2C0A3503EEA</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ContactU</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0D3CCF4DB103270F550721B93D159216B9B280E7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Smart_Rider_2</string>
+		</dict>
+	</array>
+</dict>
+</plist>
